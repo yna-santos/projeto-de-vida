@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
 
 :root {
-    --cor-de-fundo: #1E1E1E;
-    --verde: #6FFF57;
+    --cor-de-fundo: #b291ff;
+    --verde: #000000;
     --branco: #FFFFFF;
-    --botao-ativo: #3A375E;
+    --botao-ativo: #7000f0;
     --botao-inativo: rgba(58, 55, 94, 0.5);
     --texto-fundo: rgba(58, 55, 94, 0.3);
 }
@@ -21,15 +21,15 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1400px;
     width: 100%;
     margin: 0 auto;
 }
 
 .titulo-principal {
-    text-align: left;
+    text-a3lign: center center;
     width: 100%;
-    font-size: 32px;
+    font-size: 66px;
 }
 
 .titulo-principal span {
@@ -44,7 +44,7 @@ body {
     display: flex;
     justify-content: center;
     padding: 1em;
-    font-size: 18px;
+    font-size: 28px;
     align-items: center;
     width: 100%;
     border-bottom: 4px solid var(--botao-ativo);
